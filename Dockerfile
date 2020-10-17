@@ -1,4 +1,5 @@
 FROM debian:buster
+LABEL maintainer="13172812+mars2nico@users.noreply.github.com"
 
 COPY sources.list /etc/apt/sources.list
 
