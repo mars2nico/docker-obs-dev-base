@@ -55,6 +55,7 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
         libudev-dev \
         libv4l-dev \
         libvlc-dev \
+        libwayland-dev \
         libx11-dev \
         libx11-xcb-dev \
         libx264-dev \
@@ -83,6 +84,7 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
         python \
         python3-dev \
         qtbase5-dev \
+        qtbase5-private-dev \
         swig \
     && apt-get -y autoremove
 
